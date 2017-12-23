@@ -7,4 +7,8 @@ class BankAccount
     @balance = 1000
     @status = "open"
   end
+
+  def name
+    @name
+  end
 end
